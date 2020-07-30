@@ -71,25 +71,25 @@
 }
 .container-acadachvs{
   box-shadow: 2px 2px 5px 5px  ;
-  margin: 10px;
+  margin: 10px auto;
   padding: 10px;
   /* background: url('/bg2.jpg'); */
 }
 .container-pos-of-res{
   box-shadow: 2px 2px 5px 5px  ;
-  margin: 10px;
+  margin: 10px auto;
   padding: 10px;
   /* background: url('/bg2.jpg'); */
 }
 .container-techachvs{
   box-shadow: 2px 2px 5px 5px  ;
-  margin: 20px;
+  margin: 20px auto;
   padding: 10px;
   /* background: url('/bg2.jpg'); */
 }
 .container-extracurr{
   box-shadow: 2px 2px 5px 5px;
-  margin: 20px;
+  margin: 20px auto;
   padding: 10px;
   /* background: url('/bg2.jpg'); */
 }

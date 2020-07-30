@@ -8,7 +8,7 @@ class TechAchvs extends Component {
             return <li><h5>{techachv}</h5></li>
         })
         return (
-            <Container className = "container container-techachvs" id = "achievements">
+            <Container className = "container-techachvs" id = "achievements">
                 <h3><strong>Technical Achievements..</strong></h3>
                 <ul>
                     {techachvItems}

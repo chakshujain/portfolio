@@ -8,7 +8,7 @@ class ExtraCurr extends Component {
             return <li><h5>{activity}</h5></li>
         })
         return (
-            <Container className = "container container-extracurr">
+            <Container className = "container-extracurr">
             <h3><strong>Extra-Curricular</strong></h3>
                 <ul>
                     {extraCurrItems}

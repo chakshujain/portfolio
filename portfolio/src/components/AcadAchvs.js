@@ -8,7 +8,7 @@ class AcadAchvs extends Component {
             return <li><h5>{acadachv}</h5></li>
         })
         return (
-            <Container className = "container container-acadachvs">
+            <Container className = "container-acadachvs">
             <h3><strong>Academic Achievements..</strong></h3>
                 <ul>
                     {acadachvItems}

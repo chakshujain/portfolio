@@ -71,7 +71,7 @@ class Resume extends Component {
 
 
         return (
-            <Container className="container resume-container" id = "resume">
+            <Container className="resume-container" id = "resume">
             <h3><strong>Resume..</strong></h3>
                 <h6>Energetic Fresher holding Bachelor degree in Computer Science and Engineering from MM University,
                      good knowledge in computer subjects and ability to update and learn new concepts quickly and strong 
