@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import SkillBar from 'react-skillbars'
-import {Button} from 'react-bootstrap' 
+import {Button, Col, Row} from 'react-bootstrap' 
 class Skills extends Component {
     render() {
         const colors = {
@@ -13,7 +13,7 @@ class Skills extends Component {
         const techs = this.props.techs
         const techItems = techs.map((tech)=>{
             return (
-                <Button className="btn btn-info">{tech}</Button>
+                <Col xs={4} lg={2} ><Button style={{marginBottom: 20}} className="btn btn-info">{tech}</Button></Col>
             )
         })
 
@@ -25,9 +25,11 @@ class Skills extends Component {
                 <br/>
                 <h3><strong>Technologies..</strong></h3>
                 <br/>
-                <div style = {{display:'flex',flexDirection:'row',justifyContent:'space-between'}}>
+                <Row> 
                     {techItems}
-                </div>
+                </Row>
+                   
+           
                 <br/>
             </div>
         )

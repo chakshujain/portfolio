@@ -43,24 +43,7 @@ import '../App.css'
                     <br/>
                     <div className="links-box">{linkItems}</div>
                 </div>
-                <div className="contact-form">
-
-                <form className="contact-form-1"  method="POST" onSubmit={this.handleSubmit}>
-                    <h4>Or just write me here..</h4>
-                    <br/>
-                    <div className="form-group">
-                        <input type="text" value = {this.state.name} className="form-control" placeholder= "Your Name" onChange = {this.nameChangeHandler}/>
-                    </div>
-                    <div className="form-group">
-                        <input type="email" value = {this.state.email} className="form-control" aria-describedby="emailHelp" placeholder= "Your Email" onChange = {this.emailChangeHandler}/>
-                    </div>
-                    <div className="form-group">
-                        <textarea className="form-control" value = {this.state.message} rows="5" placeholder="Type the message here" onChange = {this.messageChangeHandler}></textarea>
-                    </div>
-                    <button style = {{textAlign:'center'}}type="submit" className="btn btn-primary">Submit</button>
-                </form>
-
-                </div>
+                
             </div>
         </div>
         )
