@@ -1,0 +1,139 @@
+.App{
+  font-family: 'Montserrat', sans-serif;
+  /* background: url('/bg3.jpg'); */
+}
+.header{
+  box-shadow: 2px 2px 5px 5px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 1px auto;
+  background-color: aliceblue;
+}
+.section-divider{
+  /* background: url('/bg2.jpg'); */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px;
+}
+.photo{
+  box-shadow: 5px 5px 5px 5px  ;
+  padding: 10px;
+  margin: 10px;
+}
+.basic-details{
+  box-shadow: 5px 5px 5px 5px  ;
+  padding: 10px;
+  margin: 20px;
+}
+.intro-container{
+  box-shadow: 2px 2px 2px 2px  ;
+  padding: 10px;
+  /* background: url('/bg2.jpg'); */
+}
+.resume-container{
+  box-shadow: 2px 2px 2px 2px  ;
+  padding: 10px;
+  /* background: url('/bg2.jpg'); */
+  margin: 50px;
+}
+.education-container{
+  margin: 30px auto;
+}
+.projects-container{
+  
+  margin: 30px auto;
+}
+.project-container{
+  
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.project-image{
+  box-shadow: 2px 2px 2px 2px;
+  height: 350px;
+  width: 450px;
+}
+.project-info{
+  padding: 10px 0px;
+  box-shadow: 2px 2px 5px 5px;
+  width: 650px;
+  text-align: center;
+  height: 350px;
+}
+.project-sub-info{
+  text-align: left;
+}
+.container-acadachvs{
+  box-shadow: 2px 2px 5px 5px  ;
+  margin: 10px;
+  padding: 10px;
+  /* background: url('/bg2.jpg'); */
+}
+.container-pos-of-res{
+  box-shadow: 2px 2px 5px 5px  ;
+  margin: 10px;
+  padding: 10px;
+  /* background: url('/bg2.jpg'); */
+}
+.container-techachvs{
+  box-shadow: 2px 2px 5px 5px  ;
+  margin: 20px;
+  padding: 10px;
+  /* background: url('/bg2.jpg'); */
+}
+.container-extracurr{
+  box-shadow: 2px 2px 5px 5px;
+  margin: 20px;
+  padding: 10px;
+  /* background: url('/bg2.jpg'); */
+}
+.container-contact-main{
+  box-shadow: 2px 2px 5px 5px;
+  padding: 20px;
+  /* background: url('/bg2.jpg'); */
+}
+.contact-container{
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact-info{
+  margin: 0px auto;
+  text-align: center;
+  height: 500px;
+  width: 400px;
+  padding: 10px 0px;
+}
+
+.contact-form{
+  box-shadow: 2px 2px 5px 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+}
+.links-box{
+  
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form-group{
+  margin: 1px auto;
+  width: 300px;
+}
+.contact-form-1{
+  
+  padding: 25px;
+}
+
