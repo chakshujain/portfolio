@@ -37,7 +37,7 @@
   box-shadow: 2px 2px 2px 2px  ;
   padding: 10px;
   /* background: url('/bg2.jpg'); */
-  margin: 50px;
+  margin: 50px auto;
 }
 .education-container{
   margin: 30px auto;
