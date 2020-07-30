@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Container} from 'react-bootstrap'
 import '../App.css'
 class PosnOfRes extends Component {
     render() {
@@ -7,13 +8,13 @@ class PosnOfRes extends Component {
             return <li><h5>{posn}</h5></li>
         })
         return (
-            <div id = "posn-of-res" className = "container container-pos-of-res">
+            <Container id = "posn-of-res" className = "container container-pos-of-res">
             <h3><strong>Position of Responsibilities</strong></h3>
                 <ul>
                     {posnOfResItems}
                 </ul>
                 <br/>
-            </div>
+            </Container>
         )
     }
 }

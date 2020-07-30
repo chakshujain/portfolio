@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Container } from "react-bootstrap";
 import mypic from '../mypic.jpg'
 class Photo extends Component {
     render() {

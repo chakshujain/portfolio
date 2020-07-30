@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Container,Button} from 'react-bootstrap'
+import {Container} from 'react-bootstrap'
 import '../App.css'
 
  class Intro extends Component {

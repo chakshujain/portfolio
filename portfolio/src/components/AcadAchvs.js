@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Container} from 'react-bootstrap'
 import '../App.css'
 class AcadAchvs extends Component {
     render() {
@@ -7,13 +8,13 @@ class AcadAchvs extends Component {
             return <li><h5>{acadachv}</h5></li>
         })
         return (
-            <div className = "container container-acadachvs">
+            <Container className = "container container-acadachvs">
             <h3><strong>Academic Achievements..</strong></h3>
                 <ul>
                     {acadachvItems}
                 </ul>
                 <br/>
-            </div>
+            </Container>
         )
     }
 }

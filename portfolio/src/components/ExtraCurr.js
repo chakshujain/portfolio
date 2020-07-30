@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Container} from 'react-bootstrap'
 import '../App.css'
 class ExtraCurr extends Component {
     render() {
@@ -7,13 +8,13 @@ class ExtraCurr extends Component {
             return <li><h5>{activity}</h5></li>
         })
         return (
-            <div className = "container container-extracurr">
+            <Container className = "container container-extracurr">
             <h3><strong>Extra-Curricular</strong></h3>
                 <ul>
                     {extraCurrItems}
                 </ul>
                 <br/>
-            </div>
+            </Container>
         )
     }
 }

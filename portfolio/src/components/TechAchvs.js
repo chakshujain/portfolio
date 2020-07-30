@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Container} from 'react-bootstrap'
 import '../App.css'
 class TechAchvs extends Component {
     render() {
@@ -7,13 +8,13 @@ class TechAchvs extends Component {
             return <li><h5>{techachv}</h5></li>
         })
         return (
-            <div className = "container container-techachvs" id = "achievements">
+            <Container className = "container container-techachvs" id = "achievements">
                 <h3><strong>Technical Achievements..</strong></h3>
                 <ul>
                     {techachvItems}
                 </ul>
                 <br/>
-            </div>
+            </Container>
         )
     }
 }
